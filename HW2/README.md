@@ -16,17 +16,17 @@ This is a academic project for Object-Oriented Programming
 
 ## Menu
 
-| Key | Action                                                      |
----------------------------------------------------------------------
-| L/l | Load a board from a JSON file                               |
-| D/d | Toggle debug mode (prints the ghost distance map every turn)|
-| H/h | Print the move history of player and ghosts as JSON         |
-| J/j | Jump back to an earlier move (undo through snapshots)       |
-| C/c | Continue a paused game                                      |
-| Z/z | Pause and return to the menu (in game)                      |
-| Q/q | Quit the program                                            |
+| Key | Action |
+|-----|--------|
+| `L/l` | Load a board from a JSON file |
+| `D/d` | Toggle debug mode (prints the ghost distance map every turn) |
+| `H/h` | Print the move history of player and ghosts as JSON |
+| `J/j` | Jump back to an earlier move (undo through snapshots) |
+| `C/c` | Continue a paused game |
+| `Z/z` | Pause and return to the menu (in game) |
+| `Q/q` | Quit the program |
 
-Moves are typed as (row letter)(column number), e.g A2
+> Moves are typed as (row letter)(column number), e.g A2
 
 ## Technical Highlights
 
@@ -50,8 +50,7 @@ Moves are typed as (row letter)(column number), e.g A2
   ]
 }
 ```
-
-`init` must contain exactly `rows x columns` entries. Any symbol other than `X @ # v f m` counts as an empty cell. The should be only one player `(X)`
+> `init` must contain exactly `rows x columns` entries. Any symbol other than `X @ # v f m` counts as an empty cell. The should be only one player `(X)`
 
 ## Requirements
 
