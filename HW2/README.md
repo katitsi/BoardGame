@@ -16,14 +16,15 @@ This is a academic project for Object-Oriented Programming
 
 ## Menu
 
-| Key | Action |
-| L/l | Load a board from a JSON file |
+| Key | Action                                                      |
+---------------------------------------------------------------------
+| L/l | Load a board from a JSON file                               |
 | D/d | Toggle debug mode (prints the ghost distance map every turn)|
-| H/h | Print the move history of player and ghosts as JSON |
-| J/j | Jump back to an earlier move (undo through snapshots) |
-| C/c | Continue a paused game |
-| Z/z | Pause and return to the menu (in game) |
-| Q/q | Quit the program |
+| H/h | Print the move history of player and ghosts as JSON         |
+| J/j | Jump back to an earlier move (undo through snapshots)       |
+| C/c | Continue a paused game                                      |
+| Z/z | Pause and return to the menu (in game)                      |
+| Q/q | Quit the program                                            |
 
 Moves are typed as (row letter)(column number), e.g A2
 
@@ -42,26 +43,10 @@ Moves are typed as (row letter)(column number), e.g A2
   "columns": 5,
   "energy": 10,
   "init": [
-    "X",
-    "-",
-    "v",
-    "-",
-    "#",
-    "-",
-    "#",
-    "-",
-    "f",
-    "-",
-    "-",
-    "-",
-    "m",
-    "-",
-    "@",
-    "#",
-    "-",
-    "-",
-    "-",
-    "-"
+    "X", "-", "v", "-", "#",
+    "-", "#", "-", "f", "-",
+    "-", "-", "m", "-", "@",
+    "#", "-", "-", "-", "-"
   ]
 }
 ```
