@@ -59,4 +59,31 @@ This is a academic project for Object-Oriented Programming
 - Java Development Kit **(JDK 14+)**
 - [org.json](https://mvnrepository.com/artifact/org.json/json) jar.
 
-## Installation
+## Installation (Run in Vs Code)
+```bash
+git clone https://github.com/katitsi/BoardGame
+```
+Download the [org.json](https://repo1.maven.org/maven2/org/json/json/20260814/)
+and save the .jar in Java Projects/Referenced Libraries
+
+Open `HW2.java` (main class) and click Run
+
+## Possible Improvements
+- Add UI
+- Move on the board using the arrow keys
+- The game has its own level and the user is not require to input a json file
+
+<img width="595" height="593" alt="image" src="https://github.com/user-attachments/assets/29666237-bd20-48f9-9e7c-46edbb471321" />
+
+<img width="355" height="662" alt="Στιγμιότυπο οθόνης 2026-11-08 212333" src="https://github.com/user-attachments/assets/1be09ca8-380e-4899-8a14-d1d175d9d841" />
+<img width="332" height="717" alt="Στιγμιότυπο οθόνης 2026-11-08 212455" src="https://github.com/user-attachments/assets/6351cfd8-50c5-476a-9cb9-42d0a375288a" />
+<img width="495" height="667" alt="Στιγμιότυπο οθόνης 2026-11-08 212519" src="https://github.com/user-attachments/assets/dbc04482-feb5-4281-bd66-476c1c9480f4" />
+<img width="595" height="593" alt="Στιγμιότυπο οθόνης 2026-11-08 212554" src="https://github.com/user-attachments/assets/03911549-bfe5-48b5-a063-86a9945cc6b8" />
+
+
+
+
+
+
+
+  
